@@ -7,7 +7,7 @@ There's no UI. In your functions.php, add a filter that returns an array of user
 
 Of course you can always just copy the plugin code and put it in your functions directly.
 
-# Examples
+## Examples
 Prevent all file editor access by passing an empty array:
 
 ```php
@@ -28,7 +28,7 @@ function my_allowed_file_editors( $allowed_editors ){
 }
 ```
 
-# Reference
+## Reference
 See my article for more info about this sort of functionality:
 
 [WordPress Capabilities Magic](http://mannieschumpert.com/blog/wordpress-capabilities-magic-with-map_meta_cap/)
