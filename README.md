@@ -13,7 +13,8 @@ Prevent all file editor access by passing an empty array:
 ```php
 add_filter( 'fec_allowed_file_editors', 'my_allowed_file_editors' );
 function my_allowed_file_editors( $allowed_editors ){
-	return array( );
+
+	return array();
 }
 ```
 
