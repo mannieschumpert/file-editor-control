@@ -27,3 +27,8 @@ function my_allowed_file_editors( $allowed_editors ){
 	return array( 2, 4 );
 }
 ```
+
+# Reference
+See my article for more info about this sort of functionality:
+
+[WordPress Capabilities Magic](http://mannieschumpert.com/blog/wordpress-capabilities-magic-with-map_meta_cap/)
