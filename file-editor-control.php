@@ -17,7 +17,7 @@ if ( ! defined( 'WPINC' ) ) {
 add_filter( 'user_has_cap', 'file_editor_control', 10, 4 );
 function file_editor_control( $caps, $cap, $args, $user ){
 
-    $allowed_editors = array( 1 );
+    $allowed_editors = array();
     $allowed_editors = apply_filters( 'fec_allowed_file_editors', $allowed_editors );
 
     // Don't block caps if current user = allowed user
