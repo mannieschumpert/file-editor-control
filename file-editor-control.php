@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       File Editor Control
  * Description:       Adds ability to allow only certain users access to the WordPress file editor
- * Version:           0.1
+ * Version:           0.2
  * Author:            Mannie Schumpert
  * Author URI:        http://mannieschumpert@gmail.com
  * License:           GPL-2.0+
