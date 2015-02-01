@@ -24,7 +24,8 @@ function file_editor_control( $caps, $cap, $args, $user ){
     if ( in_array( $user->ID, $allowed_editors ) )
         return $caps;
 
-    $caps['edit_themes'] = false;
+    $caps['edit_themes']  = false;
+    $caps['edit_plugins'] = false;
 
     return $caps;
 }
