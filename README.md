@@ -3,7 +3,7 @@
 Allows you to control who has file editor capabilities in the WordPress admin.
 
 ## Usage
-There's no UI. In your functions.php, add a filter that returns an array of user IDs that are allowed to edit files. By default, user ID 1 is allowed to edit files.
+There's no UI. In your functions.php, add a filter that returns an array of user IDs that are allowed to edit files.
 
 Of course you can always just copy the plugin code and put it in your functions directly.
 
